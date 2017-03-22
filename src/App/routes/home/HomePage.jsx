@@ -38,7 +38,7 @@ export default class HomePage extends Component {
                   Фоллэ Виктор Михайлович
                 </CardBlock>
                 <CardFooter className="text-xs-center">
-                  <A href="/admin" target="_blank">
+                  <A href="https://github.com/DarthVictor/skillbranch-js-middle-project" target="_blank">
                     Подробнее
                   </A>
                 </CardFooter>
