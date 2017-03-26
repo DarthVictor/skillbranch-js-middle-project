@@ -19,7 +19,7 @@
     }
   },
   "rules": {    
-    "no-console": "warn",
+    "no-console": "off",
     "arrow-body-style": "off",
     "func-names": "warn",
     "no-param-reassign": "warn",
@@ -35,7 +35,7 @@
     "import/no-extraneous-dependencies": ["error", { "packagePath": "./package.json" }],
     "no-unused-vars": "off",
     "comma-dangle": "off",
-    "semi": "off"
-    
+    "semi": "off",
+    "linebreak-style": "off"
   }
 }

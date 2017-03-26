@@ -45,6 +45,13 @@ export default class App extends ReactApp {
     };
   }
 
+  getResourses() {
+    return {
+      ...super.getResourses(),
+      ...require('./resourses').default(this), // eslint-disable-line
+    };
+  }
+
   useRoutes() {
     this.app.enable('trust proxy');
     this.app.all('/api', (req, res) => res.json({ message: 'Current API version is here: /api/v1', url: '/api/v1' }));

@@ -14,6 +14,7 @@ export default function getApi(ctx, params) {
   api.all('/auth/recovery', ctx.resourses.Auth.recovery);
   // api.all('/rpc', createRpcRoute(ctx.models))
 
+  api.all('/parse/nestedConfig', ctx.resourses.Parser.nestedConfig);
 
   api.all('*', () => 'Mobx API working');
   return api;
